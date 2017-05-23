@@ -15,6 +15,5 @@ C:\Users\s24-rp\Documents\GitHub\ClassWork\WebApplication1\bin\WebApplication1.d
 C:\Users\s24-rp\Documents\GitHub\ClassWork\WebApplication1\bin\WebApplication1.pdb
 C:\Users\s24-rp\Documents\GitHub\ClassWork\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\s24-rp\Documents\GitHub\ClassWork\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\s24-rp\Documents\GitHub\ClassWork\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
 C:\Users\s24-rp\Documents\GitHub\ClassWork\WebApplication1\obj\Debug\WebApplication1.dll
 C:\Users\s24-rp\Documents\GitHub\ClassWork\WebApplication1\obj\Debug\WebApplication1.pdb

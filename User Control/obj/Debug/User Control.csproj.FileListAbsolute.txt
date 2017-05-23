@@ -1,0 +1,20 @@
+C:\Users\s24-rp\Documents\GitHub\ClassWork\User Control\bin\roslyn\csc.exe
+C:\Users\s24-rp\Documents\GitHub\ClassWork\User Control\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\s24-rp\Documents\GitHub\ClassWork\User Control\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\s24-rp\Documents\GitHub\ClassWork\User Control\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\s24-rp\Documents\GitHub\ClassWork\User Control\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\s24-rp\Documents\GitHub\ClassWork\User Control\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\s24-rp\Documents\GitHub\ClassWork\User Control\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\s24-rp\Documents\GitHub\ClassWork\User Control\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\s24-rp\Documents\GitHub\ClassWork\User Control\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\s24-rp\Documents\GitHub\ClassWork\User Control\bin\roslyn\vbc.exe
+C:\Users\s24-rp\Documents\GitHub\ClassWork\User Control\bin\roslyn\VBCSCompiler.exe
+C:\Users\s24-rp\Documents\GitHub\ClassWork\User Control\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\s24-rp\Documents\GitHub\ClassWork\User Control\bin\User Control.dll.config
+C:\Users\s24-rp\Documents\GitHub\ClassWork\User Control\bin\User Control.dll
+C:\Users\s24-rp\Documents\GitHub\ClassWork\User Control\bin\User Control.pdb
+C:\Users\s24-rp\Documents\GitHub\ClassWork\User Control\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\s24-rp\Documents\GitHub\ClassWork\User Control\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\s24-rp\Documents\GitHub\ClassWork\User Control\obj\Debug\User Control.csprojResolveAssemblyReference.cache
+C:\Users\s24-rp\Documents\GitHub\ClassWork\User Control\obj\Debug\User Control.dll
+C:\Users\s24-rp\Documents\GitHub\ClassWork\User Control\obj\Debug\User Control.pdb

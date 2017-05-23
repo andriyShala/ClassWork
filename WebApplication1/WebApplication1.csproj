@@ -75,7 +75,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="course.xml" />
+    <Content Include="course.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Global.asax" />
     <Content Include="Image\rose1.jpg" />
     <Content Include="Image\rose2.jpg" />
@@ -83,7 +85,9 @@
     <Content Include="Image\rose4.jpg" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
-    <Content Include="XMLFile1.xml" />
+    <Content Include="XMLFile1.xml">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
