@@ -43,3 +43,8 @@ C:\Users\Андрій\Documents\GitHub\ClassWork\DatalistRepeater\bin\ru\EntityF
 C:\Users\Андрій\Documents\GitHub\ClassWork\DatalistRepeater\obj\Debug\DatalistRepeater.csprojResolveAssemblyReference.cache
 C:\Users\Андрій\Documents\GitHub\ClassWork\DatalistRepeater\obj\Debug\DatalistRepeater.dll
 C:\Users\Андрій\Documents\GitHub\ClassWork\DatalistRepeater\obj\Debug\DatalistRepeater.pdb
+C:\Users\s24-rp\Documents\GitHub\ClassWork\DatalistRepeater\bin\EntityFramework.dll
+C:\Users\s24-rp\Documents\GitHub\ClassWork\DatalistRepeater\bin\EntityFramework.SqlServer.dll
+C:\Users\s24-rp\Documents\GitHub\ClassWork\DatalistRepeater\bin\EntityFramework.xml
+C:\Users\s24-rp\Documents\GitHub\ClassWork\DatalistRepeater\bin\EntityFramework.SqlServer.xml
+C:\Users\s24-rp\Documents\GitHub\ClassWork\DatalistRepeater\bin\ru\EntityFramework.resources.dll
