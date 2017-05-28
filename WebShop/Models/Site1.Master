@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebShop.Models.Site1" %>
+<%@ Register Src="~/Controls/CategoryControl.ascx" TagName="myCategory" TagPrefix="myasp"%>
+<%@ Register Src="~/Controls/basket.ascx" TagPrefix="myasp" TagName="backet" %>
+<!DOCTYPE html>
+<link href="../Styles/StyleMaster.css" rel="stylesheet" type="text/css" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <form runat="server">
+
+   <div id="cointainer">
+
+       <div id="header">
+           <h1>My Shop</h1>
+          
+           <asp:ContentPlaceHolder ID="ContentPlaceHeader" runat="server">
+
+           </asp:ContentPlaceHolder>
+       </div>
+       <div id="navigation">
+           <asp:ContentPlaceHolder ID="ContentPlaceNavigation" runat="server">
+    </asp:ContentPlaceHolder>
+       </div>
+       <div id="menu">
+            <asp:DataList Width="100%" ID="datalist" runat="server" RepeatColumns="1">
+                <ItemTemplate>
+                    <asp:Table runat="server" Width="100%">
+                        <asp:TableRow>
+                            <asp:TableCell Width="100%">
+                                <asp:button Width="100%" ID="but1" CommandName='<%#Eval("Href")%>' OnClick="but1_Click" text='<%#Eval("Name")%>' runat="server" />
+                            </asp:TableCell>
+                        </asp:TableRow>
+                    </asp:Table>
+                </ItemTemplate>
+            </asp:DataList>
+       </div>
+       <div id="content">
+           <asp:ContentPlaceHolder ID="ContentPlaceContent" runat="server">
+                
+    </asp:ContentPlaceHolder>
+       </div>
+       <div id="footer">
+           <asp:ContentPlaceHolder ID="ContentPlaceFooter" runat="server">
+    </asp:ContentPlaceHolder>
+       </div>
+   </div>
+    </form>
+
+
+       
+</body>
+</html>

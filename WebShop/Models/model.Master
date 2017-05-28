@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="model.Master.cs" Inherits="WebShop.Site1" %>
+<%@ Register Src="~/Controls/AuntificationControl.ascx" TagName="myCntrl" TagPrefix="myasp"%>
+<%@ Register Src="~/Controls/CategoryControl.ascx" TagName="myCategoryControls" TagPrefix="myasp" %>
+<!DOCTYPE html> 
+ <style type="text/css">
+        .CssStyle1   
+        { 
+          width:100%;
+          height:100%;
+        }
+        .CssStyle2{
+            text-align:right;
+        }
+        .CssStyle3{
+            z-index:9999;
+        }
+    </style>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    
+   
+        <asp:Table ID="Table1" runat="server" BackColor="Yellow" CssClass="CssStyle1" >
+            <asp:TableRow BorderWidth="1" BorderStyle="Dashed">
+                <asp:TableCell  ColumnSpan="3" CssClass="CssStyle1">
+                    <asp:Label ID="Label1" runat="server" Text="MyShop"></asp:Label>
+                    <br />
+                    <asp:Button OnClick="buttCategory_Click" runat="server" ID="buttCategory" Text="Категори"/>
+                    <myasp:myCategoryControls Visible="false" ID="myCategory" runat="server"/>
+                </asp:TableCell>
+                <asp:TableCell>
+                      
+                </asp:TableCell>
+                <asp:TableCell>
+                    <myasp:myCntrl Visible="false"  ID="myCntrl" runat="server"></myasp:myCntrl>
+                <asp:Button OnClick="Button1_Click" ID="Button1" CssClass="CssStyle2" runat="server" Text="Войти" />
+                </asp:TableCell>
+            </asp:TableRow>
+            <asp:TableRow>
+                <asp:TableCell><asp:ContentPlaceHolder ID="ContentPlaceHolderLeft" runat="server"> 
+                      </asp:ContentPlaceHolder> </asp:TableCell>
+                <asp:TableCell ColumnSpan="3">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolderRight" runat="server"> 
+                      </asp:ContentPlaceHolder> 
+                </asp:TableCell>
+                <asp:TableCell></asp:TableCell>
+            </asp:TableRow>
+            <asp:TableFooterRow>
+                <asp:TableCell ColumnSpan="5"></asp:TableCell>
+            </asp:TableFooterRow>
+        </asp:Table>
+ 
+</body>
+</html>

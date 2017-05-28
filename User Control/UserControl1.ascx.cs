@@ -35,8 +35,8 @@ namespace User_Control
             Response.Write("Login failed");
         }
 
-        public event EventHandler Login;
-        public event EventHandler ErrorLogin;
+        public event EventHandler Loginpublic;
+          public event EventHandler Login; event EventHandler ErrorLogin;
         public event EventHandler SucceedLogin;
 
         public void LoginIn(object sender, EventArgs arg)

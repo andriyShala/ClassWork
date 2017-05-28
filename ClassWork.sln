@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{F587D922-E14B-40F1-9BB7-51294C2A03D0}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatalistRepeater", "DatalistRepeater\DatalistRepeater.csproj", "{56A48924-F369-4E46-AA89-655767551CCE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cookie", "Cookie\Cookie.csproj", "{FA88A126-BBCA-4B3D-9583-87B0C446E4D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShop", "WebShop\WebShop.csproj", "{C6729A69-59F3-492F-BDB9-EB76BA5EF5EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{FA88A126-BBCA-4B3D-9583-87B0C446E4D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA88A126-BBCA-4B3D-9583-87B0C446E4D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA88A126-BBCA-4B3D-9583-87B0C446E4D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6729A69-59F3-492F-BDB9-EB76BA5EF5EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6729A69-59F3-492F-BDB9-EB76BA5EF5EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6729A69-59F3-492F-BDB9-EB76BA5EF5EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6729A69-59F3-492F-BDB9-EB76BA5EF5EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
